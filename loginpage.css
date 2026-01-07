@@ -1,0 +1,109 @@
+.log{
+    background: url('../public/loginbg.jpeg');
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form{
+    background: transparent;
+    color: #050505;
+    width: 320px;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 40px 25px 40px 25px;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.35);
+
+}
+
+h1{
+    margin: 0 0 12px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p, .loginbox label{
+    margin: 0 0 8px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgba(3, 3, 3, 0.12);
+    background: solid black;
+    color: #030303;
+    font-size: 16px;
+    
+}
+.loginbox input::placeholder{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.loginbox button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 44px;
+    background: powderblue;
+    color: #070707;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 10px 85px 10px 85px;
+}
+.loginbox button[type="submit"]:hover{
+    background: #ffc107;
+    color: #040404;
+}
+.loginbox button[type="reset"]{
+    border: none;
+    outline: none;
+    height: 44px;
+    background: powderblue;
+    color: #070707;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 10px 90px 10px 90px;
+    
+}
+.loginbox button[type="reset"]:hover{
+    background:powderblue (238, 236, 236, 0.03);
+    color: #ffc107;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(6, 6, 6);
+}
+.loginbox a:hover{
+    color: #ffc107;
+
+}
+.loginbox a:hover{
+    color: #ffc107;
+
+}
+.smartgpt{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    position:absolute;
+    top: 90px;
+    left:calc(50% - 50px );
+}
